@@ -1,0 +1,44 @@
+{
+  "posts": [{
+    "userId": 1234,
+    "title": "Title 1",
+    "content": "Some random content",
+    "id": 145,
+    "likedUsers": [],
+    "comments": []
+  },
+  {
+    "userId": 1235,
+    "title": "Title 2",
+    "content": "Some other random content",
+    "id": 146,
+    "likedUsers": [],
+    "comments": []
+  }],
+  "users": {
+    "1234": {
+      "name": "Aswanth"
+    },
+    "1235": {
+      "name": "Dheerain"
+    }
+  },
+  "currentUser" : 1234,
+  "comments": [
+    {
+      "comment": "This is the comment",
+      "forItem": "post",
+      "forId": "145",
+      "id": 1236,
+      "userId": 1234
+    },
+    {
+      "comment": "This is the second comment",
+      "forItem": "comment",
+      "forId": "1236",
+      "id": 1567,
+      "userId": 1234
+    }
+  ]
+}
+
